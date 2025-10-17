@@ -612,8 +612,8 @@
     <main class="mb-32 bg-gray-900">
       <!-- Home Section -->
       <section id="home" class="mt-10 px-6">
-        <div class="max-w-6xl mx-auto">
-          <div class="flex gap-8">
+        <div class="max-w-7xl mx-auto">
+          <div class="flex gap-12">
             <!-- Left column - Text content -->
             <div class="flex-1 max-w-2xl">
               <h1 class="text-4xl mb-1 font-bold text-white">Siri Chandana</h1>
@@ -711,7 +711,7 @@
             </div>
 
             <!-- Right column - Professional image layout -->
-            <div class="flex-shrink-0 w-96">
+            <div class="flex-shrink-0 w-[36rem]">
               <div class="space-y-6">
                 <!-- Your personal photo -->
                 <div class="rounded-xl overflow-hidden shadow-lg">
@@ -725,9 +725,9 @@
                 </div>
 
                 <!-- Video and Amazon image side by side -->
-                <div class="flex gap-4 justify-center items-start">
+                <div class="flex gap-4 justify-start items-start">
                   <!-- MimiWay demo video -->
-                  <div class="w-32 h-120 rounded-xl overflow-hidden shadow-lg">
+                  <div class="w-80 h-120 rounded-xl overflow-hidden shadow-lg">
                     <video
                       controls
                       autoplay
@@ -735,6 +735,7 @@
                       loop
                       preload="metadata"
                       poster="media/siri.jpeg"
+                      class="w-full h-full object-cover"
                     >
                       <source src="media/demo_mimiway.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
@@ -773,28 +774,30 @@
                     Software Developer Engineer Intern
                   </h3>
                   <span class="text-sm opacity-60 text-white"
-                    >June 2025 – Sept 2025</span
+                    >June 2025 – Aug 2025</span
                   >
                 </div>
                 <p class="font-medium mb-3 text-white">Amazon</p>
                 <ul class="text-sm leading-relaxed space-y-2">
                   <li class="text-white">
-                    • Built and optimized large-scale authentication workflows
-                    leveraging AWS services (SNS, SQS, Lambda, DynamoDB) to
-                    enable real-time risk assessment and adaptive
-                    re-authentication.
+                    • Integrated risk analysis into Amazon's authentication
+                    flow, collaborating with cross-functional teams using AWS
+                    SNS, SQS, Lambda, DynamoDB (Java).
                   </li>
                   <li class="text-white">
-                    • Built high-availability features "fail-open" recovery
-                    paths, Shadow mode launch to ensure uninterrupted customer
-                    experience during risk evaluation, balancing security and
-                    scalability.
+                    • Designed, implemented, and gradually rolled out in prod,
+                    improving fraud detection reliability for millions of users.
                   </li>
                   <li class="text-white">
-                    • Partnered with senior engineers and cross-functional teams
-                    to implement mission-critical security safeguards, aligning
-                    system architecture with best practices for compliance and
-                    threat mitigation.
+                    • Partnered with senior engineers to deploy mission-critical
+                    security safeguards, ensuring compliance and system
+                    reliability.
+                  </li>
+                  <li class="text-white">
+                    • Identified and fixed misconfigured SNS event subscriptions
+                    across teams, restoring event flow reliability and
+                    preventing downstream disruptions for other services and
+                    teams.
                   </li>
                 </ul>
               </div>
@@ -805,30 +808,34 @@
               <div
                 class="flex-1 p-6 bg-gray-800 border border-gray-700 rounded-lg"
               >
-                <div class="mb-3">
+                <div class="flex justify-between items-start mb-3">
                   <h3 class="text-lg font-semibold text-blue-400">Founder</h3>
+                  <span class="text-sm opacity-60 text-white">April 2025</span>
                 </div>
                 <p class="font-medium mb-3 text-white">
-                  MimiWay – AI Hostess for restaurants
+                  MimiWay – AI Hostess for Restaurants
                 </p>
                 <ul class="text-sm leading-relaxed space-y-2">
                   <li class="text-white">
-                    • Built a full-stack AI platform using FastAPI, React, and
-                    Groq LLM to enable restaurant menu conversations
+                    • Led the technical development of MimiWay, architecting the
+                    full-stack AI platform to enable natural menu conversations
+                    using FastAPI, React, Groq LLM.
                   </li>
                   <li class="text-white">
-                    • Developed a vector-based retrieval system using ChromaDB
-                    and FAISS for hallucination-free AI responses.
+                    • Engineered a vector retrieval system with ChromaDB + FAISS
+                    and a two-layer verification pipeline to deliver
+                    hallucination-free AI responses, ensuring system
+                    reliability.
                   </li>
                   <li class="text-white">
-                    • Optimized frontend performance with lazy image loading,
-                    caching strategies, and responsive UI for seamless diner
-                    interactions.
+                    • Optimized frontend performance with lazy loading, caching,
+                    and responsive UI, improving diner engagement by 3×.
                   </li>
                   <li class="text-white">
-                    • Launched pilot programs across two Seattle restaurants,
-                    leading end-to-end marketing, customer onboarding, and
-                    engagement for 200+ diners within a week.
+                    • Launched programs across three Seattle restaurants,
+                    managing end-to-end onboarding, marketing, and customer
+                    engagement for 500+ diners, while leading all technical
+                    operations and development decisions.
                   </li>
                 </ul>
               </div>
